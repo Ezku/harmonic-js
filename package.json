@@ -1,5 +1,5 @@
 {
-  "dependencies": {
+  "devDependencies": {
     "flow-bin": "^0.88.0"
   },
   "name": "harmonic",
