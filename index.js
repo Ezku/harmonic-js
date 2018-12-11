@@ -24,7 +24,6 @@ function nearestRoundNumber(i: number) {
   return 2 * Math.round(i / 2)
 }
 
-module.exports = {
-  default: makeScale({}),
-  makeScale
-};
+
+module.exports = makeScale({});
+module.exports.makeScale = makeScale;
