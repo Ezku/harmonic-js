@@ -1,0 +1,5 @@
+[version]
+0.88
+
+[include]
+./*.js
