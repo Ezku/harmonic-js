@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "flow-bin": "^0.88.0"
+  },
+  "name": "harmonic",
+  "version": "0.0.1",
+  "description": "Utility for generating unit measures (e.g. in pixels) on a harmonic scale ",
+  "main": "index.js",
+  "repository": "git@github.com:Ezku/harmonic-js.git",
+  "author": "Eevert Saukkokoski <eevert.saukkokoski@gmail.com>",
+  "license": "MIT"
+}
