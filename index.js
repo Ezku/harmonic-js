@@ -15,12 +15,12 @@ export type ScaleParams = {
 */
 
 function makeScale({ base = BASE, ratio = RATIO, step = STEP, zero = ZERO }/*: ScaleParams*/) {
-  return function scale(s: number) {
+  return function scale(s/*: number */) {
     return nearestRoundNumber(base * Math.pow(ratio, (s - zero) * step))
   }
 }
 
-function nearestRoundNumber(i: number) {
+function nearestRoundNumber(i/*: number */) {
   return 2 * Math.round(i / 2)
 }
 
